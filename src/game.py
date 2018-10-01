@@ -63,7 +63,7 @@ class Game:
         with term.location(0, 10):
             print("• {term.bold}'D'{term.normal} to draw a card".format(term=term))
         with term.location(0, 11):
-            print("• {term.bold}Space{term.normal} to select two card".format(term=term))
+            print("• {term.bold}Space{term.normal} to select two cards".format(term=term))
         with term.location(0, 12):
             print("• {term.bold}Enter{term.normal} to clear with drawn card".format(term=term))
         with term.location(0, 13):
