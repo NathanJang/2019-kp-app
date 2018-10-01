@@ -23,6 +23,8 @@ Requires that Python 3.7 and pip are installed.
 
 This application is written with Python 3.7 and uses a third party library called [blessed][Blessed] to create the TUI. I chose this stack because Python is fast to work with and the TUI library made the interface a lot more user-friendly.
 
+The product was tested by hand on MacOS.
+
 Data structures used in this program include a stack of undrawn cards, a stack of drawn cards, and a 2D list for the pyramid. The pyramid data structure implements a recursive linear search to determine which cards are hidden and which are not. The TUI draws ASCII art by calculating coordinates and re-rendering as needed when user interaction occurs.
 
 [Blessed]: https://pypi.org/project/blessed/1.9.1/#description
