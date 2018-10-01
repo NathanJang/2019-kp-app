@@ -1,0 +1,13 @@
+#!/usr/bin/env python3
+from src.game import Game
+from blessed import Terminal
+from sys import stderr, exit
+
+if __name__ == '__main__':
+    terminal = Terminal()
+    if terminal.width < 80 or terminal.height < 21:
+        stderr.write("Please resize the terminal window to at least 80x21!\n")
+        stderr.flush()
+        exit(1)
+    game = Game(terminal)
+    game.run()
