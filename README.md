@@ -4,11 +4,11 @@ By Jonathan Chan (jonathanchan@u.northwestern.edu)
 
 ## Rules
 
-Pyramids is a solitaire card game that my mother taught me. I'm not sure if it has a nother name.
+Pyramids is a solitaire card game that my mother taught me. I'm not sure if it has another name.
 
-The goal is to clear the pyramid before you run out of cards. Only a handful of cards are shown on the pyramid. Within the shown cards, you must select pairs of them whose value add up to 13 (with A=1, J=11, Q=12, and K=13). When cards are cleared, they are taken away, and the cards underneath them are shown, if any. Of course, this means that any K card can be taken away on its own immediately.
+The goal is to clear the pyramid before you run out of cards. Only a handful of cards are shown on the pyramid. Within the shown cards, you must select pairs of them whose value add up to 13 (with A=1, J=11, Q=12, and K=13). Of course, this means that any K card can be taken away on its own immediately. When cards are cleared, they are taken away, and the cards underneath them are shown, if any.
 
-But what if none of the cards on the pyramid can be paired? Then, you may draw a card from the deck, and see if that card can be paired with any on the pyramid. Once you draw a card, however, all of the previous cards that you drew cannot be used, anymore (akin to a stack). So, draw wisely!
+But what if none of the cards on the pyramid can be paired? Then, you may draw a card from the deck, and see if that card can be paired with any on the pyramid. Once you draw a card, however, all of the previous cards that you drew cannot be used anymore (akin to a stack), unless you use that card up. So, draw wisely!
 
 If you clear the pyramid before going through the deck, then you've won. Happy clearing!
 

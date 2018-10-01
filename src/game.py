@@ -23,6 +23,8 @@ class Game:
                     self.handle_key(key)
 
     def handle_key(self, key):
+        if self._game_state is not GameState.RUNNING:
+            return
         has_changes = False
         if key.name == "KEY_LEFT":
             self._pyramid.left()
