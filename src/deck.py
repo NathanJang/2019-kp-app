@@ -72,6 +72,8 @@ class Value(Enum):
             return other is Value.TWO
         elif self is Value.QUEEN:
             return other is Value.ACE
+        else:
+            return False
 
 
 class Suit(Enum):
