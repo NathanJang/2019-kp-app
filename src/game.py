@@ -134,7 +134,7 @@ class Game:
         term = self._terminal
         for (i, card) in enumerate(self._revealed_cards):
             with term.location(0, 20):
-                self.render_card(card, 20 + i, 0, CardState.HIDDEN if i != len(self._revealed_cards) - 1 else CardState.NORMAL)
+                self.render_card(card, 20 + i, 0, CardState.NORMAL)
         with term.location(20, 5):
             print("↑ drawn cards")
 

@@ -4,7 +4,7 @@ By Jonathan Chan (jonathanchan@u.northwestern.edu)
 
 ## Rules
 
-Pyramids is a solitaire card game that my mother taught me. I'm not sure if it has another name.
+Pyramids is a game of luck and strategy. It is a solitaire card game that my mother taught me long ago. I'm not sure if it has another name.
 
 The goal is to clear the pyramid before you run out of cards. Only a handful of cards are shown on the pyramid. Within the shown cards, you must select pairs of them whose value add up to 13 (with A=1, J=11, Q=12, and K=13). Of course, this means that any K card can be taken away on its own immediately. When cards are cleared, they are taken away, and the cards underneath them are shown, if any.
 
